@@ -15,7 +15,6 @@ countWords("  Extra   spaces   ") // 2 (игнорируем лишние про
 
 import (
 	"fmt"
-	"strings"
 	"unicode"
 )
 
@@ -26,6 +25,7 @@ func main() {
 	fmt.Println(countWords("Extra spaces"))
 	fmt.Println(countWords("Extra  spaces      "))
 	fmt.Println(countWords("... Extra,   spaces !  "))
+	fmt.Println(countWords("..."))
 
 }
 
